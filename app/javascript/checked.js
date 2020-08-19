@@ -49,9 +49,6 @@ function check() {
       XHR.onerror = () => {
         alert("Request failed");
       };
- 
-      // イベントをキャンセルして、処理が重複しないようにしている
-      e.preventDefault();
     });
   });
  }
